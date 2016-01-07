@@ -36,6 +36,8 @@ class Route
 
         $actionName = $actionName . 'Action';
 
+        $controllerName .= 'Controller';
+
         $controller = new $controllerName;
         $action = $actionName;
 

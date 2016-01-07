@@ -6,7 +6,7 @@
  * Date: 05.01.16
  * Time: 10:18
  */
-class Main extends Controller
+class MainController extends Controller
 {
     public function indexAction()
     {
